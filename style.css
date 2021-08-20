@@ -1,0 +1,621 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-color: #FFFFFF;
+    font-family: Arial;
+    font-size: 13px;
+    color: #333;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+
+.menu_top {
+    background: #004370;
+    width: 100%;
+    height: 40px;
+    padding-left: 130px;
+    padding-right: 110px;
+    position: fixed;
+    top: 0px;
+}
+
+.menu_top ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu_top ul li {
+    list-style: none;
+    float: left;
+}
+
+.menu_top ul li a {
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #FFF;
+    padding: 0px 20px 0px 20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.menu_top ul li a:hover {
+    background: #0064A6;
+}
+
+.main-contain{
+    width: 735px;
+    background-color: #ffffff;
+    margin-left: 150px;
+    margin-top: 40px;
+    float: left;
+
+}
+
+.main-news {
+    height: 320px;
+    width: 720px;
+    background-color: #ffffff;
+}
+
+.main-news-tieude {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto-Bold, sans-serif;
+    margin-bottom: 20px;
+    font-size: 23px;
+    font-weight: bold;
+    display: block;
+    padding-top: 50px;
+}
+
+.noi-dung{
+    margin-top: 5px;
+    background-color: #ECF8FF;
+    overflow: hidden;
+    width: 710px;
+    height: 260px;
+    padding-left: 10px;
+}
+
+.noi-dung img {
+    float: right;
+    width: 370px;
+    height: 230px;
+    padding-left: 15px;
+}
+
+.noi-dung p {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 10px;
+    font-family: Arial;
+    font-size: 15px;
+    color: #333;
+    border-bottom: 1px #E0E0E0 dotted;
+    line-height: 20px;
+}
+
+.lien-quan{
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 15px;
+    font-weight: bolder;
+}
+
+.lien-quan ul li a {
+    display: block;
+    font: bold 13px/17px Roboto-Medium, sans-serif;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #444;
+}
+
+.sub-news div.tin{
+    width: 225px;
+    height: 250px;
+    margin-right: 10px;
+    float: left;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-top: 15px;
+}
+
+.sub-news div.tin img {
+    width: 225px;
+    height: 140px;
+    margin-bottom: 10px;
+
+}
+
+.tin p {
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+
+.tin a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.invest-news {
+    width: 720px;
+    height: 600px;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.tin1 {
+    width: 358px;
+    height: 600px;
+    background-color: #F0F1F5;
+    border-right: 1px #E0E0E0 solid;
+    border-top: 1px #E0E0E0 solid;
+    border-bottom: 1px #E0E0E0 solid;
+    float: left;
+}
+
+.tin1 div {
+    margin: 10px 20px 10px 20px;
+    border-bottom: 1px black dotted;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+.tin1 div h3 {
+    font-size: 19px;
+}
+
+.tin1 div a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.tin1phu {
+    width: 359px;
+    height: 600px;
+    background-color: #ffffff;
+    border-top: 1px #E0E0E0 solid;
+    border-bottom: 1px #E0E0E0 solid;
+    float: right;
+    
+}
+
+.tin1phu div a img {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+
+
+.noi-dung1 {
+    display: block;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.news {
+    width: 710px;
+    height: 190px;
+    margin-top: 20px;
+    border-bottom: 1px black dotted;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.news a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 6px;
+    font-weight: bold;
+    color: #696969;
+}
+
+.news a img {
+    padding-top: 10px;
+    float: left;
+    padding-right: 20px;
+    height: 175px;
+    font-size: 17px;
+}
+
+
+.news a.news-tieude {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 6px;
+    line-height: 25px;
+}
+
+
+.news h6 {
+    padding-bottom: 6px;
+    font-size: 12px;
+    color: #C0AC9C;
+}
+
+
+
+.container-left {
+    width: 300px;
+    height: 600px;
+    background-color: #F0F7FB;
+    float: right;
+    margin-right: 45px;
+    position: R ;
+    border: 1px #BCD8EB solid;
+    padding: 20px 10px 20px 20px;
+    margin-top: 80px;
+}
+
+.container-left div a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+    display: block;
+    border-bottom: 1px black dotted;
+    margin-top: 10px;
+
+}
+
+.container-left p {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.container-left div h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer {
+    height: 225px;
+    width: 100%;
+    background-color: #F2F4F8;
+    padding-top: 20px;
+    padding-left: 150px;
+    overflow: hidden;
+    border-top: 1px #E0E0E0 solid;
+    display: inline-block;
+    margin-top: 1800px;
+}
+
+.footer div b {
+    font-size: 17px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.footer div p {
+    margin-bottom: 5px;
+}
+
+.footer div.ban-bien-tap{
+    width: 525px;
+    border-right: 1px black dotted;
+    height: 145px;
+    float: left;
+    padding-right: 55px;
+}
+
+
+.footer div.lien-he{
+    width: 520px;
+    height: 120px;
+    float: right;
+    padding-right: 200px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .main-contain {
+        margin-left: 10px;
+    }
+    
+    .menu_top {
+        padding-left: 23px;
+    }
+
+    .menu_top ul li a {
+        padding: 0px 10px 0px 10px;
+        border-right: 1px solid ;
+    }
+    .container-left {
+        margin-right: 12px;
+        width: 230px;
+        padding: 10px 10px 10px 10px;
+        height: 670px;
+    }
+    .footer{
+        margin-top: 1700px;
+        padding-left: 30px;
+        overflow: none;
+        height: 400px;
+    }
+    .footer div.lien-he{
+        float: none;
+        margin-top: 20px;
+    }
+    .footer div.ban-bien-tap{
+        float: none;
+        border-right: none;
+        border-bottom: 1px black dotted;
+        width: 650px;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    
+    .menu_top {
+        padding-left: 0px;
+    }
+    .menu_top ul li a {
+        padding: 0px 6px 0px 6px;
+        font-size: 10px;
+        border-right: 1px solid ;
+
+    }
+
+    .main-contain {
+        margin-top: 20px;
+        margin-left: 25px;
+        height: 6920px;
+        float: none;
+    }
+    .main-news {
+        width: 500px;
+    }
+    .main-news-tieude {
+        font-size: 27px;
+        line-height: 30px;
+        width: 600px;
+    }
+    .noi-dung {
+        width: 600px;
+        height: 650px;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .noi-dung img {
+        float: none;
+        text-align: center;
+        padding-left: 40px;
+        width: 500px;
+        height: 300px;
+        padding-bottom: 20px;
+    }
+    .noi-dung p {
+        padding-right: 20px;
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+    .noi-dung a {
+        padding-right: 20px;
+
+    }
+
+    .lien-quan ul li a {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .sub-news div.tin{
+        width: 500px;
+        height: 430px;
+        float: none;
+        margin-left: 60px;
+    }
+    
+    .sub-news div.tin img {
+        width: 500px;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    .tin a {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .invest-news {
+        height: 1630px;
+        width: 600px;
+        margin-left: 12px;
+    }
+    .tin1 {
+        float: none;
+        width: 600px;
+        height: 720px;
+        padding-top: 20px
+    }
+
+    .tin1 div h3 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .tin1 div a {
+        font-size: 20px;
+        line-height: 25px;
+        padding-bottom: 10px;
+    } 
+    .tin1phu{
+        width: 550px;
+        float: none;
+        padding-top: 20px;
+        margin-left: 35px;
+    }
+
+    .tin1phu div a img {
+        width: 500px;
+        height: 300px;
+    }
+    .noi-dung1{
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+
+    .news{
+        width: 600px;
+        height: 620px;
+        margin-left: 30px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+    .news a {
+        font-size: 20px;
+    }
+
+    .news a img {
+        float: none;
+        width: 500px;
+        height: 300px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+
+    .news a.news-tieude {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .news h6 {
+        font-size: 20px;
+        color: #C0AC9C;
+        line-height: 30px;
+    }
+    .news p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .container-left {
+        float: none;
+        margin-right: 0px;
+        width: 600px;
+        height: 1000px;
+        margin-left: 30px;
+    }
+
+    .container-left a {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    .container-left div a{
+        height: 90px;
+        font-weight: bold;
+    }
+    .container-left div h2 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .container-left p {
+        font-size: 25px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .footer{
+        margin-top: 30px;
+        line-height: 30px;
+        height: 450px;
+        width: 700px;
+    }
+    .footer div b {
+        font-size: 25px;
+    }
+    .footer div p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .footer div.ban-bien-tap {
+        height: 260px;
+        margin-bottom: 30px;
+    }
+    .footer div.lien-he{
+        height: 150px;
+        float: none;
+    }
+}   
+
+
+@media screen and (max-width: 768px) {
+    div {
+        width: 756px;
+    }
+    .main-contain {
+        margin-left: 5px;
+        height: 2350px;
+        float: none;
+    }
+
+    .noi-dung img {
+        width: 330px;
+        padding-right: 0px;
+    }    
+    .menu_top {
+        padding-left: 1px;
+        padding-right: 0px;
+        width: 750px;
+    }
+
+    .menu_top ul li a {
+        padding: 0px 5px 0px 5px;
+        font-size: 11px;
+        border-right: 1px solid ;
+
+    }
+    .container-left {
+        margin-right: 12px;
+        width: 500px;
+        padding: 10px 10px 10px 10px;
+        height: 670px;
+        float: none;
+        margin-top: 60px;
+        margin-left: 100px;
+    }
+
+    .container-left div a {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .footer{
+        margin-top: 30px;
+        padding-left: 30px;
+        overflow: none;
+        height: 300px;
+    }
+    .footer div.lien-he{
+        float: none;
+        margin-top: 20px;
+    }
+    .footer div.ban-bien-tap{
+        float: none;
+        border-right: none;
+        border-bottom: 1px black dotted;
+        width: 650px;
+    }
+}
